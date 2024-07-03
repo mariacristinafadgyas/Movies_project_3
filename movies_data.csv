@@ -1,0 +1,40 @@
+title,rating,year_of_release,poster,note,imdbID,country,
+Sonic the Hedgehog,6.5,2020,https://m.media-amazon.com/images/M/MV5BNTdmNmI4MzQtZTAzNS00MjhjLWEzOGQtZjI1NDNjZjk4N2JjXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_SX300.jpg,,tt3794354,United States,"[' Japan', ' Canada']"
+The Shawshank Redemption,9.3,1994,https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg,,tt0111161,United States,
+Despicable Me,7.6,2010,https://m.media-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX300.jpg,,tt1323594,United States,[' France']
+The Blacklist,7.9,2013-2023,https://m.media-amazon.com/images/M/MV5BMTU1OTdjYTUtMzA2MS00Njg4LWI1NTctMWUzYzNkNmQ5YWY3XkEyXkFqcGdeQXVyMTUwMzM5ODkz._V1_SX300.jpg,My favorite movie!,tt2741602,United States,
+The Notebook,7.8,2004,https://m.media-amazon.com/images/M/MV5BNzc3Mzg1OGYtZjc3My00Y2NhLTgyOWUtYjRhMmI4OTkwNDg4XkEyXkFqcGdeQXVyMTU3NDU4MDg2._V1_SX300.jpg,,tt0332280,United States,
+Garfield,8.5,2017,https://m.media-amazon.com/images/M/MV5BMzk5ZmNhMGYtYWEzNS00MjA2LWFkZGYtZWViMzBlYTZiZDZlXkEyXkFqcGdeQXVyNzM0MjAzNTY@._V1_SX300.jpg,,tt6585312,United Kingdom,
+Joker,8.4,2019,https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg,,tt7286456,United States,"[' Canada', ' Australia']"
+Gladiator,8.5,2000,https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg,,tt0172495,United States,"[' United Kingdom', ' Malta', ' Morocco']"
+Inside Out,8.1,2015,https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_SX300.jpg,,tt2096673,United States,
+Argylle,5.7,2024,https://m.media-amazon.com/images/M/MV5BZDM3YTg4MGUtZmUxNi00YmEyLTllNTctNjYyNjZlZGViNmFhXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg,,tt15009428,United Kingdom,[' United States']
+Heart of Stone,5.7,2023,https://m.media-amazon.com/images/M/MV5BMTJhYjI1N2ItM2E4MC00ZmYzLTk2YzYtNTE5YTM1MDU0NjRiXkEyXkFqcGdeQXVyMTMxNjYyMTgw._V1_SX300.jpg,,tt13603966,United States,
+Love Again,5.9,2023,https://m.media-amazon.com/images/M/MV5BNjQwZDIyNjAtZGQxMC00OTUwLWFiOWYtNzg2NDc5Mjc1MDQ5XkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_SX300.jpg,,tt10276482,United States,
+Serenity,7.8,2005,https://m.media-amazon.com/images/M/MV5BMTc5YjQ0MGQtOTdjZS00OGZhLTk1ZGItMThjOGFiZmMxYWRjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg,,tt0379786,United States,
+The Good Liar,6.7,2019,https://m.media-amazon.com/images/M/MV5BN2VhNTY5ZTUtYzc1NC00NjUyLWI1NDQtYWE3YmJlNjQ3OGVlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg,,tt5563334,United Kingdom,[' United States']
+After,5.3,2019,https://m.media-amazon.com/images/M/MV5BOGUwMjk3YzktNDI0Yy00MzFiLWFjNmEtYTA2ODVjMzNhODhjXkEyXkFqcGdeQXVyOTQ1MDI4MzY@._V1_SX300.jpg,,tt4126476,United States,
+The Trial,7.6,1962,https://m.media-amazon.com/images/M/MV5BN2JiZTM2ZWMtOWI5ZS00ZjI2LWI5OTktNTJjZmU2NzM4NGE2XkEyXkFqcGdeQXVyNDE0OTU3NDY@._V1_SX300.jpg,,tt0057427,France,"[' Italy', ' West Germany']"
+Animals United,6.7,1969,https://m.media-amazon.com/images/M/MV5BMTI2NDg2NTQxN15BMl5BanBnXkFtZTcwMzc0MTkxMQ@@._V1_SX300.jpg,,tt0064552,Germany,
+Green Zone,6.8,2010,https://m.media-amazon.com/images/M/MV5BMTYzMTA1NDMyNV5BMl5BanBnXkFtZTcwMzUwODY5Mg@@._V1_SX300.jpg,,tt0947810,United Kingdom,"[' France', ' Spain', ' United States']"
+The Reef,5.8,2010,https://m.media-amazon.com/images/M/MV5BMTY2ODE3MjI3Ml5BMl5BanBnXkFtZTcwMjM4ODM4Mg@@._V1_SX300.jpg,,tt1320291,Australia,
+Dear John,6.3,2010,https://m.media-amazon.com/images/M/MV5BMTk1NDEzMTU5NV5BMl5BanBnXkFtZTcwNTI3MTk5Mg@@._V1_SX300.jpg,,tt0989757,United States,
+Mother of the Bride,4.9,2024,https://m.media-amazon.com/images/M/MV5BZWIzN2FhN2ItNTYxMC00M2Q3LThiNGMtOWRjYjE5MDY4MjFiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg,,tt26926267,United States,
+Thanksgiving,6.3,2023,https://m.media-amazon.com/images/M/MV5BOGZhOGJjZTAtOTJmYS00ZTk2LTgxYWEtNjM3ZmUxMjY2NWFiXkEyXkFqcGdeQXVyNjU2NTI4MjE@._V1_SX300.jpg,,tt1448754,United States,"[' Canada', ' Australia']"
+Second Act,5.8,2018,https://m.media-amazon.com/images/M/MV5BMjQ2MjI5Njk0MF5BMl5BanBnXkFtZTgwNDQ2NzczNTM@._V1_SX300.jpg,,tt2126357,United States,
+In the Name of the Father,8.1,1993,https://m.media-amazon.com/images/M/MV5BMmYyOTgwYWItYmU3Ny00M2E2LTk0NWMtMDVlNmQ0MWZiMTMxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg,,tt0107207,Ireland,[' United States']
+The Vow,6.8,2012,https://m.media-amazon.com/images/M/MV5BMjE1OTU5MjU0N15BMl5BanBnXkFtZTcwMzI3OTU5Ng@@._V1_SX300.jpg,,tt1606389,United States,"[' Australia', ' France', ' Canada', ' Germany', ' Brazil', ' United Kingdom', ' China']"
+Passengers,7.0,2016,https://m.media-amazon.com/images/M/MV5BZjk4ZTMwMTYtOTk1NC00OTA0LWFhMGYtZTBjMzViMDY2YWZjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg,,tt1355644,United States,[' Australia']
+Arrival,7.9,2016,https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg,,tt2543164,United States,[' Canada']
+Identity,7.3,2003,https://m.media-amazon.com/images/M/MV5BMjE2NzgyNDYzNl5BMl5BanBnXkFtZTYwODM2Nzc2._V1_SX300.jpg,,tt0309698,United States,
+Primal Fear,7.7,1996,https://m.media-amazon.com/images/M/MV5BZTM2NWI2OGYtYWNhMi00ZTlmLTg2ZTAtMmI5NWRjODA5YTE1XkEyXkFqcGdeQXVyODE2OTYwNTg@._V1_SX300.jpg,,tt0117381,United States,
+A Walk to Remember,7.3,2002,https://m.media-amazon.com/images/M/MV5BMzU3NTYxM2MtNjViMS00YmNlLWEwM2MtYWI2MzgzNTkxODFjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg,Another favorite! ,tt0281358,United States,
+Bridgerton,7.4,2020-...,https://m.media-amazon.com/images/M/MV5BY2ZiODA2MGYtMmMxMi00YjlmLWFmYjktMWYyOTMwNWFkNWNkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg,,tt8740790,United States,
+Memory,5.7,2022,https://m.media-amazon.com/images/M/MV5BOGI5N2FhNzktZjZlNi00MmRjLWE1MmUtNjRlNzQyOGMzYjNhXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg,,tt11827628,United States,
+On the Line,5.4,2022,https://m.media-amazon.com/images/M/MV5BYjAzMmFlMGMtNzQ4Mi00NGM1LTk4MzYtOGNjYzczNzUyNmU5XkEyXkFqcGdeQXVyMjAxMDczOTQ@._V1_SX300.jpg,,tt14824590,United States,
+The Jump,8.3,2020,https://m.media-amazon.com/images/M/MV5BMDA0ODY4NmQtYTE1My00OTAzLThhOTUtNzdlNzAwZWVmMWE3XkEyXkFqcGdeQXVyMzE4NTA4OQ@@._V1_SX300.jpg,,tt6546810,Lithuania,"[' Latvia', ' France', ' Germany', ' United States']"
+A Star Is Born,7.6,2018,https://m.media-amazon.com/images/M/MV5BNmE5ZmE3OGItNTdlNC00YmMxLWEzNjctYzAwOGQ5ODg0OTI0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg,,tt1517451,United States,
+Yellow,5.2,2006,https://m.media-amazon.com/images/M/MV5BMTIxOTQ5NTI4M15BMl5BanBnXkFtZTcwMTk1Mzk0MQ@@._V1_SX300.jpg,,tt0488349,Puerto Rico,[' United States']
+Criminal Minds,8.1,2005–,https://m.media-amazon.com/images/M/MV5BMTJjN2IxNTUtMWE3Ni00MTYzLTg0MTQtNzRhMTVjMzY2ZWI1XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_SX300.jpg,,tt0452046,United States,
+The Outlaws,7.7,2021–,https://m.media-amazon.com/images/M/MV5BYTMyZjU3NDUtN2IzNy00MTMwLWJiZTgtMGYxMTEyYWNiZjE2XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_SX300.jpg,,tt11646832,United Kingdom,
+The Moon,5.9,2023,https://m.media-amazon.com/images/M/MV5BNzU4M2YzMzktNmJkZC00YzRmLWFkNWItZGM0YTc2NTBkNTAwXkEyXkFqcGdeQXVyMTU1MDczNjU1._V1_SX300.jpg,,tt27688034,South Korea,

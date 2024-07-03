@@ -6,7 +6,8 @@ import sys
 
 
 class MovieApp:
-    """This class support multiple methods"""
+    """This class supports several methods for the entire logic of the film
+     app (menu, commands, etc.). It has a member (field) of type IStorage."""
 
     def __init__(self, storage):
         self._storage = storage

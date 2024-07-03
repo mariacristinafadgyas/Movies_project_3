@@ -3,6 +3,7 @@ import json
 import requests
 import os
 from dotenv import load_dotenv
+import csv
 
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
@@ -10,23 +11,30 @@ API_KEY = os.getenv('API_KEY')
 REQUEST_URL = "http://www.omdbapi.com/?apikey=" + API_KEY + "&t="
 
 
-class StorageJson(IStorage):
-    """Implements the IStorage interface and saves the data in a JSON file"""
+class StorageCsv(IStorage):
+    """Implements the IStorage interface and saves the data in a CSV file"""
 
     def __init__(self, file_path):
         self.file_path = file_path
 
     def read_data(self):
-        """Reads  the movies database"""
-        with open(self.file_path, "r") as fileobj:
-            movies_database = json.loads(fileobj.read())
-        return movies_database
+        """Reads  the movies database from a csv file"""
+        movies_data = []
+        with open(self.file_path, mode='r', newline='\n', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                row['rating'] = float(row['rating']) if row['rating'] else None
+                movies_data.append(row)
+            return movies_data
 
     def sync_database(self, movies_database):
         """Synchronizes the movies database"""
-        updated_database = json.dumps(movies_database)
-        with open(self.file_path, 'w') as fileobj:
-            fileobj.write(updated_database)
+        headers = movies_database[0].keys()
+        with open(self.file_path, mode='w', newline='\n', encoding='utf-8') as file:
+            writer = csv.DictWriter(file, fieldnames=headers)
+            writer.writeheader()  # Write the header row
+            for row in movies_database:
+                writer.writerow(row)
 
     def list_movies(self):
         """Displays the movies in the database"""
@@ -34,7 +42,8 @@ class StorageJson(IStorage):
         print()
         print(f"\u001b[38;5;208;1m{len(movies_database)} movies in total\u001b[0m")
         for movie in movies_database:
-            print(f"\u001b[38;5;38;1m{movie['title']}: \u001b[38;5;160;1m{movie['rating']}\u001b[0m, released in \u001b["
+            print(
+                f"\u001b[38;5;38;1m{movie['title']}: \u001b[38;5;160;1m{movie['rating']}\u001b[0m, released in \u001b["
                 f"38;5;28;1m{movie['year_of_release']}\u001b[0m")
 
     def add_movie(self):
@@ -89,7 +98,6 @@ class StorageJson(IStorage):
         self.sync_database(movies_database)
         return movies_database
 
-
     def delete_movie(self):
         """Deletes a movie from the movies' database.
            Loads the information from the JSON file, deletes the movie,
@@ -112,7 +120,7 @@ class StorageJson(IStorage):
 
     def update_movie(self):
         """Updates the movies database"""
-        movies_database = self. read_data()
+        movies_database = self.read_data()
         movie_to_be_updated = input("\u001b[35mPlease select a movie to be updated: \u001b[0m")
 
         movie_found = False
@@ -133,3 +141,4 @@ class StorageJson(IStorage):
 # storage.add_movie()
 # storage.delete_movie("The Guilty")
 # storage.update_movie("The Shawshank Redemption")
+
