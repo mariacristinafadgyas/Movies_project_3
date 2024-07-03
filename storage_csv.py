@@ -19,13 +19,21 @@ class StorageCsv(IStorage):
 
     def read_data(self):
         """Reads  the movies database from a csv file"""
-        movies_data = []
-        with open(self.file_path, mode='r', newline='\n', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                row['rating'] = float(row['rating']) if row['rating'] else None
-                movies_data.append(row)
-            return movies_data
+        try:
+            movies_data = []
+            with open(self.file_path, mode='r', newline='\n', encoding='utf-8') as file:
+                reader = csv.DictReader(file)
+                for row in reader:
+                    row['rating'] = float(row['rating']) if row['rating'] else None
+                    movies_data.append(row)
+                return movies_data
+        except FileNotFoundError:
+            with open(self.file_path, mode="w", newline='\n', encoding='utf-8') as file:
+                file.write("")
+            return []
+        except Exception as e:
+            print(f"\u001b[38;5;197;1mAn error occurred: {e}\u001b[0m")
+            return []
 
     def sync_database(self, movies_database):
         """Synchronizes the movies database"""

@@ -18,9 +18,19 @@ class StorageJson(IStorage):
 
     def read_data(self):
         """Reads  the movies database"""
-        with open(self.file_path, "r") as fileobj:
-            movies_database = json.loads(fileobj.read())
-        return movies_database
+        try:
+            with open(self.file_path, "r") as fileobj:
+                movies_database = json.loads(fileobj.read())
+            return movies_database
+        except FileNotFoundError:
+            with open(self.file_path, mode="w") as file:
+                file.write("")
+            return []
+        except json.JSONDecodeError: # To handle cases where the file contents are not valid JSON.
+            return []
+        except Exception as e:
+            print(f"\u001b[38;5;197;1mAn error occurred: {e}\u001b[0m")
+            return []
 
     def sync_database(self, movies_database):
         """Synchronizes the movies database"""

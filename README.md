@@ -41,8 +41,15 @@ pip install country_converter
 ```
 - Run the application:
 ```
-python main.py
+python main.py "file_name.csv"
 ```
-
+or 
+```
+python main.py "file_name.json"
+```
+- To test the code, copy-paste the following command into the *Terminal*: 
+```
+pytest test_code.py
+```
 ## Contributing
 Contributions to Movie Project 2 are welcome! If you have suggestions for improvements, feature requests, or find any issues, please feel free to open an issue or create a pull request.
